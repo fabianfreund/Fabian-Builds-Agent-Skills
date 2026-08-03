@@ -8,6 +8,7 @@ Agent Skills I use with Claude Code, shared here so anyone can install them too.
 |---|---|
 | [`optimize-neon-db`](skills/optimize-neon-db/SKILL.md) | Cuts unnecessary database compute usage in a Next.js app on Neon (or any scale-to-zero database). Fixes "why does my DB never go idle" / "why is my database bill so high." |
 | [`update-docs`](skills/update-docs/SKILL.md) | Audits and cleans up a repo's CLAUDE.md, AGENTS.md, README.md, ROADMAP.md, TODO.md, and docs/ files. Keeps them lean and accurate without losing content. |
+| [`codebase-quality-check`](skills/codebase-quality-check/SKILL.md) | Full-repo health audit: messy files, dead code, reusability, docs-vs-code drift, baseline typecheck/lint/test/build. Tech-stack agnostic, gives a prioritized cleanup report. |
 
 ## Install
 
