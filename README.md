@@ -17,9 +17,10 @@ More skills will be added over time.
 You don't need to read or copy any files by hand. Paste the prompt below into a coding agent (Claude Code, or similar) — it works whether you point it at this repo remotely or you've already cloned it locally.
 
 ```
-Get me the skills from <YOUR-REPO-URL> (clone it if it isn't already local).
-List every skill you find under its skills/ folder with a one-line description
-of each, and ask me which one(s) I want to install.
+Get me the skills from https://github.com/fabianfreund/Fabian-Builds-Agent-Skills
+(clone it if it isn't already local). List every skill you find under its
+skills/ folder with a one-line description of each, and ask me which one(s)
+I want to install.
 
 For each skill I pick:
 - If the `skillshare` tool is available on this machine, use it to install the
@@ -29,8 +30,6 @@ For each skill I pick:
 
 Tell me exactly what got installed and where when you're done.
 ```
-
-Replace `<YOUR-REPO-URL>` with this repo's GitHub URL.
 
 ### What this actually does
 
